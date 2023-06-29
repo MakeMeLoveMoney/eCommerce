@@ -20,6 +20,8 @@ namespace eCommerce.WebApp.Controllers
 
         public IActionResult Index()
         {
+            Console.WriteLine("FirstChange");
+            Console.ReadLine();
             return View();
         }
 
